@@ -6,6 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "derek/jubilee-laravel-auth": "^1.0",
+        "derek/laravel-click108": "^1.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0"
@@ -17,6 +19,20 @@
         "phpunit/phpunit": "~6.0",
         "symfony/thanks": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Derek-meng/click108.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Derek-meng/laravel-click108.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Derek-meng/jubilee-laravel-auth.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database/seeds",
