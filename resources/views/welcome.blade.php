@@ -66,20 +66,26 @@
 </head>
 <body>
 <div class="flex-center position-ref full-height">
-    @if (Route::has('auth.login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-                <a href="{{ route('auth.logout') }}">Logout</a>
+    <div class="top-right links">
+        @auth
+            <a href="{{route('twelve_constellations.index')}}">星座資訊</a>
+            <a href="{{ route('auth.logout') }}">Logout</a>
+        @else
+            <a href="{{ route('auth.login') }}">Login</a>
+            <a href="{{ route('auth.register') }}">Register</a>
+            <a href="{{route('auth.facebook.sign_in')}}">Facebook登入</a>
+        @endauth
+    </div>
+    @auth
 
-            @else
-                <a href="{{ route('auth.login') }}">Login</a>
-                <a href="{{ route('auth.register') }}">Register</a>
-                <a href="{{route('auth.facebook.signIn')}}">Facebook登入</a>
-            @endauth
+        <div>
+            <h1>
+                Hello {{Auth()->user()->email}}
+            </h1>
         </div>
-@endif
+    @endauth
 
+</div>
 
 </body>
 </html>
