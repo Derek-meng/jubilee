@@ -29,9 +29,12 @@
 
 6. Migrate database with simple data
         
-        php artisan migrate:fresh --seed
-
-7. Set Env File Key
+        php artisan migrate
+7. Run Seed 
+        
+        php artisan db:seed
+        
+8. Set Env File Key
 ```
 JUBILEE_AUTHED_HOME_URL=Host Url
 JUBILEE_FACEBOOK_CLIENT_ID= your facebook client id
@@ -53,3 +56,6 @@ JUBILEE_FACEBOOK_CLIENT_REDIRECT_URL= {host_url}/auth/facebook/feedback
     
 
 
+## Example
+
+[範例網站](https://dadfasdf.online/)
