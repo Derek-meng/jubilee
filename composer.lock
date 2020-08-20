@@ -46,16 +46,16 @@
         },
         {
             "name": "derek/click108",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Derek-meng/click108.git",
-                "reference": "a717d842d5d830e14d89fd399b1832f10032bbe4"
+                "reference": "48870f52536907b58b9a1b428dce54b1ce8e051e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Derek-meng/click108/zipball/a717d842d5d830e14d89fd399b1832f10032bbe4",
-                "reference": "a717d842d5d830e14d89fd399b1832f10032bbe4",
+                "url": "https://api.github.com/repos/Derek-meng/click108/zipball/48870f52536907b58b9a1b428dce54b1ce8e051e",
+                "reference": "48870f52536907b58b9a1b428dce54b1ce8e051e",
                 "shasum": ""
             },
             "require": {
@@ -86,10 +86,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/Derek-meng/click108/tree/1.0.0",
+                "source": "https://github.com/Derek-meng/click108/tree/1.0.2",
                 "issues": "https://github.com/Derek-meng/click108/issues"
             },
-            "time": "2020-08-13T07:16:47+00:00"
+            "time": "2020-08-20T01:45:00+00:00"
         },
         {
             "name": "derek/jubilee-laravel-auth",
