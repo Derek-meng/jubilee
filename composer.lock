@@ -93,16 +93,16 @@
         },
         {
             "name": "derek/jubilee-laravel-auth",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Derek-meng/jubilee-laravel-auth.git",
-                "reference": "c2a26428fdb4bb1809eb33105248d00cc2249378"
+                "reference": "93b1872fed9e60e529be50cb2234e8e3c9779285"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Derek-meng/jubilee-laravel-auth/zipball/c2a26428fdb4bb1809eb33105248d00cc2249378",
-                "reference": "c2a26428fdb4bb1809eb33105248d00cc2249378",
+                "url": "https://api.github.com/repos/Derek-meng/jubilee-laravel-auth/zipball/93b1872fed9e60e529be50cb2234e8e3c9779285",
+                "reference": "93b1872fed9e60e529be50cb2234e8e3c9779285",
                 "shasum": ""
             },
             "require": {
@@ -151,10 +151,10 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/Derek-meng/jubilee-laravel-auth/tree/1.0.0",
+                "source": "https://github.com/Derek-meng/jubilee-laravel-auth/tree/1.0.1",
                 "issues": "https://github.com/Derek-meng/jubilee-laravel-auth/issues"
             },
-            "time": "2020-08-19T09:02:34+00:00"
+            "time": "2020-08-20T03:37:08+00:00"
         },
         {
             "name": "derek/laravel-click108",
