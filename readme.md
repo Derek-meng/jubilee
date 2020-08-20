@@ -59,3 +59,16 @@ JUBILEE_FACEBOOK_CLIENT_REDIRECT_URL= {host_url}/auth/facebook/feedback
 ## Example
 
 [範例網站](https://dadfasdf.online/)
+#測試帳號:
+```
+a0985265734@gmail.com
+123456
+```
+#每日抓取Command:
+```
+php artisan detector:constellations
+           or
+php artisan schedule:run  
+```
+
+
