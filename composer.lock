@@ -158,16 +158,16 @@
         },
         {
             "name": "derek/laravel-click108",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Derek-meng/laravel-click108.git",
-                "reference": "390416903dbfb953b07c4cb220fdf23ccc8018ab"
+                "reference": "9088a862c4ad1ca2dbc57b87ff6881f0ac3add87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Derek-meng/laravel-click108/zipball/390416903dbfb953b07c4cb220fdf23ccc8018ab",
-                "reference": "390416903dbfb953b07c4cb220fdf23ccc8018ab",
+                "url": "https://api.github.com/repos/Derek-meng/laravel-click108/zipball/9088a862c4ad1ca2dbc57b87ff6881f0ac3add87",
+                "reference": "9088a862c4ad1ca2dbc57b87ff6881f0ac3add87",
                 "shasum": ""
             },
             "require": {
@@ -213,10 +213,10 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/Derek-meng/laravel-click108/tree/1.0.1",
+                "source": "https://github.com/Derek-meng/laravel-click108/tree/1.0.2",
                 "issues": "https://github.com/Derek-meng/laravel-click108/issues"
             },
-            "time": "2020-08-14T08:19:08+00:00"
+            "time": "2020-08-19T10:21:57+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
