@@ -167,7 +167,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Jubilee\Auth\AuthProvider::class,
         /*
          * Application Service Providers...
          */
